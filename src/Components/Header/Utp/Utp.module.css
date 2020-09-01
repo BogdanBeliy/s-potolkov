@@ -1,0 +1,143 @@
+.utp{
+    margin-top: 12%;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.mainText {
+    font-size: 130px;
+    font-weight: 900;
+    line-height: 77%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 0;
+}
+
+.bText{
+    font-size: 26px;
+    padding-left: 0;
+}
+
+
+.pg{
+    font-size: 32px;
+    margin: 0;
+    padding-left: 0;
+}
+
+@media screen and (max-width: 1720px){
+    .mainText{
+        font-size: 110px;
+    }
+}
+@media screen and (max-width: 1440px){
+    .utp{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .mainText{
+        font-size: 100px;
+    }
+    .bText{
+        font-size: 22px;
+    }
+    .pg{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    .utp{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .mainText{
+        font-size: 90px;
+    }
+    .bText{
+        font-size: 22px;
+    }
+    .pg{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 768px){
+    .utp{
+        margin-bottom: 30%;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+    }
+    .mainText{
+        font-size: 70px;
+    }
+    .bText{
+        font-size: 20px;
+    }
+    .pg{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 376px){
+    .utp{
+        margin-bottom: 30%;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+    }
+    .mainText{
+        font-size: 40px;
+    }
+    .bText{
+        font-size: 18px;
+    }
+    .pg{
+        font-size: 20px;
+        padding: 0;
+        line-height: 100%;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width: 552px){
+    .utp{
+        margin-bottom: 30%;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+    }
+    .mainText{
+        font-size: 50px;
+    }
+    .bText{
+        font-size: 18px;
+    }
+    .pg{
+        font-size: 20px;
+        padding: 0;
+        line-height: 100%;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width: 414px){
+    .utp{
+        margin-bottom: 30%;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+    }
+    .mainText{
+        font-size: 40px;
+    }
+    .bText{
+        font-size: 18px;
+    }
+    .pg{
+        font-size: 20px;
+        padding: 0;
+        line-height: 100%;
+        padding-bottom: 10px;
+    }
+}
+
+

@@ -1,0 +1,72 @@
+.icons a{
+    text-decoration: none;
+    font-size: 34px;
+    color: #000000;
+    transition: 0.2s;
+    padding-right: 10px;
+}
+
+.icons a:hover{
+    color: #838383;
+}
+.callBackH4{
+    padding-top: 15px;
+    margin: 0;
+
+}
+.callBackText{
+    font-size: 54px;
+    font-weight: bold;
+}
+.itemLink{
+    font-weight: bold;
+    font-size: 26px;
+    text-decoration: none;
+    color: #000000;
+    transition: 0.2s;
+}
+.itemLink:hover{
+    color: #838383;
+    text-decoration: none;
+}
+.callBack{
+    margin-bottom: 0 !important;
+}
+.forma h3{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 900;
+    
+}
+.forma{
+    background-color: #E6F5F4;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.contact{
+    padding-left: 45px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+@media screen and (max-width: 414px){
+    .callBackText{
+        font-size: 44px !important;
+        font-weight: bold;
+        text-align: center;
+    }
+    .callBack{
+        text-align: center;
+    }
+    .forma{
+        background-color: #E6F5F4;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .icons a{
+        padding-right: 35px;
+    }
+    .contact{
+        padding-left: 10px;
+    }
+}
+

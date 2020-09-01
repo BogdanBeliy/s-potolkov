@@ -1,0 +1,49 @@
+.inputForm{
+    padding-top: 0;
+    padding-bottom: 5px !important;
+}
+label{
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+form{
+    width: 60%;
+    margin: 0 auto;
+}
+.btnCalc {
+    background: #44535E;
+    border: 2px solid #E6F5F4;
+    transition: 0.4s;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #E6F5F4;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+
+
+}
+.btnCalc:hover{
+    background: #E6F5F4;
+    color: #44535E;
+    border: 2px solid #44535E;
+    border-radius: 0px;
+}
+
+.btnCalc:focus{
+    background: #E6F5F4;
+    color: #44535E;
+    border: 2px solid #44535E;
+    border-radius: 0px;
+}
+@media screen and (max-width: 414px){
+    form{
+        width: 90%;
+    }
+}

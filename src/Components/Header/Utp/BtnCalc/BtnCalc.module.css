@@ -1,0 +1,32 @@
+.btnCalcBlock{
+    margin-top: 25px;
+}
+
+
+.btnCalc {
+    background: #44535E;
+    border: 2px solid #E6F5F4;
+    transition: 0.4s;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+
+}
+.btnCalc:hover{
+    background: #E6F5F4;
+    color: #44535E;
+    border: 2px solid #44535E;
+    border-radius: 0px;
+}
+
+.btnCalc:focus{
+    background: #E6F5F4;
+    color: #44535E;
+    border: 2px solid #44535E;
+    border-radius: 0px;
+}

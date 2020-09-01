@@ -1,0 +1,29 @@
+.map{
+    margin-top: 5%;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 5%;  
+}
+.map h2{
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.map p{
+    margin-bottom: 48px;
+    padding-left: 0;
+}
+
+@media screen and (max-width: 414px){
+    .map{
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+    .map h2{
+        font-size: 42px !important;
+        text-align: center;
+       
+    }
+}

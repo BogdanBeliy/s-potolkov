@@ -1,0 +1,21 @@
+
+
+.item{
+    padding-right: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
+    transition: 0.2s;
+}
+.item:hover{
+    text-decoration: none;
+    color: #727272;
+}
+
+
+@media screen and (max-width: 414px){
+    .linkFooter{
+        display: flex;
+        flex-direction: column;
+    }
+}

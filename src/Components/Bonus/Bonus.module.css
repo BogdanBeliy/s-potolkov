@@ -1,0 +1,137 @@
+.bonus{
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: #E6F5F4;
+    padding: 50px;
+    margin-top: 5%;
+}
+
+.present{
+    font-size: 34px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.zag{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 30px;
+
+}
+.bonus b{
+    font-size: 22px;
+}
+.inPrice{
+    font-weight: bold;
+   
+}
+.bonusImg{
+    display: flex;
+   flex-direction: row;
+    align-items: center;
+}
+.bonusImg img{
+    width: 50%;
+}
+.bonusText{
+    padding-top: 25px;
+}
+
+
+ @media screen and (max-width: 610px){
+    .bonus{
+        text-align: center;
+        background-color: #E6F5F4;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 5%;
+    }
+    .bonusText{
+        margin-bottom: 25px;
+    }
+    .present{
+        font-size: 24px;
+        font-weight: bold;
+        margin: 0;
+    }
+    .bonus b{
+        font-size: 24px;
+        
+    }
+    .bonusImg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .bonusImg img{
+        width: 100%;
+        padding: 5px;
+    }
+ }
+   
+ 
+ @media screen and (max-width: 414px){
+     
+    .bonus{
+        text-align: center;
+        background-color: #E6F5F4;
+       padding-left: 10px;
+       padding-right: 10px;
+        margin-top: 5%;
+    }
+    .bonusText{
+        margin-bottom: 25px;
+    }
+    .present{
+        font-size: 24px;
+        font-weight: bold;
+        margin: 0;
+    }
+    .bonus b{
+        font-size: 24px;
+        
+    }
+    .bonusImg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .bonusImg img{
+        width: 100%;
+        padding: 5px;
+    }
+ }
+
+ @media screen and (max-width: 376px){
+    .bonus{
+        text-align: center;
+        background-color: #E6F5F4;
+        padding: 20px;
+        margin-top: 5%;
+    }
+    .bonusText{
+        margin-bottom: 25px;
+    }
+    .present{
+        font-size: 24px;
+        font-weight: bold;
+        margin: 0;
+    }
+    .bonus b{
+        font-size: 24px;
+        
+    }
+    .bonusImg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .bonusImg img{
+        width: 100%;
+        padding: 5px;
+    }
+ }

@@ -1,0 +1,39 @@
+a.menuLink{
+    color: #0E1821 !important;
+    font-size: 20px; 
+    text-align: center;
+    border-bottom: 2px solid #ffffff;
+    transition: 0.4s;
+    margin-right: 20px;
+    width: 25%;
+    margin: 0 auto;
+}
+
+a.menuLink:hover{
+    border-bottom: 2px solid #0E1821;
+
+}
+.menu a.active {
+    border-bottom: 2px solid #0E1821;
+}
+
+
+a.phone{
+    color: #0e1821 !important;
+    font-size: 22px;
+    background: #E6F5F4;
+    border: 2px solid #E6F5F4;
+
+    text-align: center;
+    padding-left: 25px !important;
+    padding-right: 25px !important; 
+    transition: 0.4s;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.phone:hover{
+    border: 2px solid #0E1821;
+
+}
