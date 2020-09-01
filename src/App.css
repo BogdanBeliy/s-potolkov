@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+
+
+@font-face{
+    font-family: 'Montserrat', sans-serif;
+    src: url("./assets/fonts/Montserrat/Montserrat-Black.otf");
+    src:url("./assets/fonts/Montserrat/Montserrat-Bold.otf");
+    src: url('./assets/fonts/Montserrat/Montserrat-Regular.otf');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+    font-family: 'Montserrat', sans-serif;
+} 
+
+
+.btnCalcBlock a{
+    text-transform: uppercase;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btnClalcBlock a:hover{
+    text-decoration: none !important;
+}
+.footer{
+    padding-top: 30px;
+    background-color: #E6F5F4;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2{
+    font-weight: 900 !important;
+    font-size: 54px !important;
 }
 
-.App-link {
-  color: #61dafb;
+.toTop{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 25px;
+    bottom: 25px;
+    font-size: 50px;
+   color: #44535E;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
